@@ -35,11 +35,11 @@ cfg = {
     "hidden_dim": 800,
     "dropout": 0.2,
     "weight_label": True,
-    "classifer": "MLP",
+    "classifer": "Bilinear",
     "gradient_clip": None,
     "root_dir": "/Users/jessicawang/Documents/CLMS/Spring 2025/repos/ABCD/",
     "glove_dir": "/Users/jessicawang/Desktop/",
-    "pretrained_path": "best_minwiki/",  # if using pre-trained model
+    "pretrained_path": "best_minwiki_bilinear/",  # if using pre-trained model
     "data_filename": "batch_test.pkl",  # input filename
     "output_str_to_file": True,  # flag for if outputting clean output to txt file
     "inverse_label_weights": [
